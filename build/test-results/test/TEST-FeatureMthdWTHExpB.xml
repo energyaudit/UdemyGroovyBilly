@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FeatureMthdWTHExpB" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-25T17:00:23" hostname="Nafis-MBP.architech.lan" time="0.049">
+  <properties/>
+  <testcase name="add two number" classname="FeatureMthdWTHExpB" time="0.049"/>
+  <system-out><![CDATA[-124340970
+Thrown the exception
+I have done the clean:clear the objects created
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
