@@ -9,12 +9,13 @@ class Tweet1 {
     Integer favorites
     Date createdOn
     
-    public Tweet1(String user, String tweet) {
+    public Tweet1(String user, String tweet) {//constructor
        username = user
        text = tweet
        retweets = 0
        favorites = 0
        createdOn = new Date()
+        println "groovy constructor same as java that same name as class name and crate new date:  new Date()  "
     }
     
     void addToRetweets(){
@@ -27,6 +28,7 @@ class Tweet1 {
 }
 
 def tweet = new Tweet1("therealdanvega","Hello,Twitter!")
+println "need @groovy.transform.ToString to print or represent tweet"
 println tweet
 
 

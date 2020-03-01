@@ -1,5 +1,6 @@
 package Groovy.Udemy
 // you must provide an assetion an expression that evaluates to true
+println "assertion nothing happen"
 assert true
 
 // we can provide a full expression on the right hand side 
@@ -10,7 +11,8 @@ assert 1 == 1
 def x = 1
 assert x == 1
 
-// what happens when the expression doesn't evaluate to true? 
+// what happens when the expression doesn't evaluate to true?
+println "assertion false groovy will console why false"
 assert false
 
 // The power assertion output shows evaluation results from the outer to the inner expression
