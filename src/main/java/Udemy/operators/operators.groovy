@@ -46,17 +46,30 @@ assert true || false
         result = 'Not found'
     }
     
-    String s = ""
-    result = ( s != null && s.length() > 0 ) ? 'Found' : 'Not Found'
-
+    String s1 = ""
+result = ( s1 != null && s.length() > 0 ) ? 'Found' : 'Not Found'
+println " result = ( s1 != null && s.length() > 0 ) ? 'Found' : 'Not Found'=       "+ result
     // Elvis Operator
+class User {
+    String name
+}
+User user=new User()
     displayName = user.name ? user.name : 'Anonymous'   
     displayName = user.name ?: 'Anonymous'   
-
+println "Elvis Operator:displayName = user.name ?: 'Anonymous'=       "+displayName
 // Object Operators
 
     // Safe Navigation Operator
+class Person {
 
+    String first
+    String last
+    String address
+
+}
+class Address{
+    String address
+}
     // Java
     Person p = new Person()
     if( p.address != null ) {
