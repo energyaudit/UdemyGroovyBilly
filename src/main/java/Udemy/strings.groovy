@@ -5,17 +5,21 @@ package Groovy.Udemy
 // Java :: 
 
 char c = 'c'
+println("Java ::char c = 'c',println c.class")
 println c.class
 
 String str = "this is a string"
+println("Java ::String str = \"this is a string\",println str.class")
 println str.class
 
 // Groovy ::
 
 def c2 = 'c'
+println("Groovy ::char c = 'c',println c.class")
 println c2.class
 
 def str2 = 'this is a string'
+println("Groovy ::String str = \"this is a string\",println str.class")
 println str2.class
 
 // string interpolation

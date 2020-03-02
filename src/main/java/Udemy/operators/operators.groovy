@@ -78,6 +78,7 @@ class Address{
     }
     
     // Groovy
+println "safe navigation operator:   def address = p?.address "
     def address = p?.address
     assert address == null
    

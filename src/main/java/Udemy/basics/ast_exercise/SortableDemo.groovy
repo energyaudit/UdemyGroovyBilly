@@ -7,7 +7,7 @@ import groovy.transform.*
 class Person {
 
     String first
-    String last
+    String lastO
 
 }
 

@@ -49,3 +49,6 @@ commonLog.utils.js
 ### Gradle ###
 .gradle/
 build/
+
+#workspace
+.idea

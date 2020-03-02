@@ -15,7 +15,7 @@ println decimal.class
 // Explicit - casting
 
 def myFloat = (float) 1.0
-println "1.0: myFloat.class"
+println " :: Converting Data Types : Explicit - casting:,def myFloat = (float) 1.0,1.0: myFloat.class"
 println myFloat.class
 
 // Implicit - coercion
@@ -29,7 +29,7 @@ println myFloat.class
 
 Float f = 5.25
 Double d = 10.50
-println "If either operand is a float or a double the result is a double "
+println " Implicit - coercion,If either operand is a float or a double the result is a double,println result2.class  "
 def result = d / f
 println result
 println result.class
@@ -45,7 +45,7 @@ println result2.class
 def x = 34.5 // BigDecimal
 def y = 15
 def bigResult = x / y
-println "If either operand is a big decimal  "
+println "If either operand is a big decimal,bigResult.class  "
 println bigResult
 println bigResult.class
 
@@ -71,14 +71,15 @@ println 1.intdiv(2)
 // GDK Methods
 // ----------------------------------------------------------------------
 println "GDK Methods "
-println "assert 2 == 2.5.toInteger() "
+println "GDK Methods1:assert 2 == 2.5.toInteger() "
 assert 2 == 2.5.toInteger() // conversion
-println "assert 2 == 2.5 as Integer "
+println "GDK Methods2: assert 2 == 2.5 as Integer "
 assert 2 == 2.5 as Integer  // enforced coercion
-println "assert 2 == (int) 2.5 // cast "
+println "GDK Methods3:assert 2 == (int) 2.5 // cast "
 assert 2 == (int) 2.5 // cast
-
+println "GDK Methods4:assert '5.50'.isNumber() "
 assert '5.50'.isNumber()
+println "GDK Methods5:assert 5 == '5'.toInteger() "
 assert 5 == '5'.toInteger()
 
 // times | upto | downto | step

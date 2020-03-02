@@ -29,4 +29,7 @@ println checking
 println savings
 
 BigDecimal total = checking + savings
+println(" BigDecimal plus(Account account),para is another Account object,\n " +
+        "and return is by default,so no need write return,\n" +
+        "BigDecimal total = checking + savings  ")
 println total
